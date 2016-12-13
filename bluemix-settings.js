@@ -16,7 +16,7 @@
 
 var path = require("path");
 var when = require("when");
-
+var Botkit = require('botkit');
 var cfenv = require("cfenv");
 var appEnv = cfenv.getAppEnv();
 
