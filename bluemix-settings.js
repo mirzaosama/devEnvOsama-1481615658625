@@ -50,7 +50,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: { 
-	Botkit:require('botkit')
+	//Botkit:require('botkit')
 	},
 
     storageModule: require("./couchstorage")
